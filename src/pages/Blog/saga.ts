@@ -6,9 +6,6 @@ import { IPostsResponse } from "./types";
 import axios, { AxiosResponse } from "axios";
 import {postsUrl} from "./api";
 
-/*
-    Worker Saga: Fired on getPostsRequest action
-  */
 function* getPostsSaga(action: ReturnType<typeof getPostsRequest>) {
 
     try {

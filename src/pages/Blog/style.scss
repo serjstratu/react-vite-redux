@@ -1,0 +1,15 @@
+.blog {
+  position: relative;
+  height: 100vh;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .spinner{
+    height: 64px;
+    width: 64px;
+  }
+}
