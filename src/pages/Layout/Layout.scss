@@ -1,0 +1,17 @@
+.footer {
+    background-color: var(--bs-dark);
+    color: var(--bs-light);
+    padding: 12px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    .copy-text{
+        font-size: 14px;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
